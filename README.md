@@ -12,5 +12,5 @@ El objetivo de este proyecto es desarrollar e implementar drivers básicos para 
 ## Contenido
 El proyecto incluirá progresivamente drivers y ejemplos para diferentes periféricos del microcontrolador.
 
-## Autor
+## Autores
 Alberto Angel Bautista Niño
