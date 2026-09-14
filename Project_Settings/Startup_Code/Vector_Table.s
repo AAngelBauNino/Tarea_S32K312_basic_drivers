@@ -52,6 +52,7 @@
 .globl SysTick_Handler           /* SysTick Handler */ /* 15*/
 
 .globl SIUL_1_Handler
+.globl PIT0_IRQHandler
 
 VTABLE:
 
@@ -172,7 +173,7 @@ VTABLE:
 .long undefined_handler
 .long undefined_handler
 .long undefined_handler
-.long undefined_handler
+.long PIT0_IRQHandler 	//undefined_handler /* IRQ 96 <-- PIT0_IRQn */
 .long undefined_handler
 .long undefined_handler
 .long undefined_handler
