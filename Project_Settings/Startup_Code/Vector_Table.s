@@ -51,6 +51,8 @@
 .globl PendSV_Handler            /* PendSV Handler */
 .globl SysTick_Handler           /* SysTick Handler */ /* 15*/
 
+.globl SIUL_1_Handler
+
 VTABLE:
 
 .long __Stack_dtcm_start        /* Top of Stack for Initial Stack Pointer */
@@ -128,7 +130,7 @@ VTABLE:
 .long undefined_handler
 .long undefined_handler
 .long undefined_handler
-.long undefined_handler
+.long SIUL_1_Handler 	//undefined_handler /* IRQ 54 <-- SIUL_1_IRQn */
 .long undefined_handler
 .long undefined_handler
 .long undefined_handler
