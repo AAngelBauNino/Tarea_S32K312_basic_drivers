@@ -1,8 +1,14 @@
 /**
-*   @file main.c
+*   @file 	main.c
 *
-*   @addtogroup main_module main module documentation
-*   @{
+*   @brief 	main example using drv_gpio.h and drv_timer.h drivers
+*   		on UC_PLATFORM_S32K312
+*
+*   @author Alberto Angel Bautista Niño
+*   		@angel.embeddedsys
+*   		albertobaunino@gmail.com
+*   		abautista.nino@iteso.mx
+*
 */
 
 #ifdef __cplusplus
@@ -11,7 +17,6 @@ extern "C"{
 
 #include "drv_gpio.h"
 #include "drv_timer.h"
-#include "S32K312.h"
 
 drv_gpio_config_t led_red;
 drv_gpio_config_t led_green;

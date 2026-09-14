@@ -1,6 +1,10 @@
 /**
  * @file    drv_timer_s32k312.c
  * @brief   Timer driver implementation for S32K312.
+ * @author  Alberto Angel Bautista Niño
+ *   		@angel.embeddedsys
+ *   		albertobaunino@gmail.com
+ *   		abautista.nino@iteso.mx
  */
 
 #include "drv_timer.h"

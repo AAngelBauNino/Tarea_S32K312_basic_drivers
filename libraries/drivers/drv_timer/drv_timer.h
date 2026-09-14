@@ -1,6 +1,10 @@
 /**
  * @file    drv_timer.h
  * @brief   Portable Timer Driver interface.
+ * @author  Alberto Angel Bautista Niño
+ *   		@angel.embeddedsys
+ *   		albertobaunino@gmail.com
+ *   		abautista.nino@iteso.mx
  */
 
 #ifndef DRV_TIMER_H

@@ -1,3 +1,12 @@
+/**
+ * @file 	uc_platform_cfg.c
+ * @brief 	this file defines the kind of platform microcontroller will be use.
+ * @author  Alberto Angel Bautista Niño
+ *   		@angel.embeddedsys
+ *   		albertobaunino@gmail.com
+ *   		abautista.nino@iteso.mx
+ */
+
 #ifndef UC_PLATFORM_CFG_H
 #define UC_PLATFORM_CFG_H
 
